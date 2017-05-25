@@ -15,6 +15,14 @@
 		5A2CA9621E66A79B00804C21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2CA9601E66A79B00804C21 /* LaunchScreen.storyboard */; };
 		5A2CA96D1E66A79B00804C21 /* AlwaysRollTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CA96C1E66A79B00804C21 /* AlwaysRollTests.m */; };
 		5A2CA9781E66A79B00804C21 /* AlwaysRollUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CA9771E66A79B00804C21 /* AlwaysRollUITests.m */; };
+		5A310B751ED5245F0031732A /* 6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5A310B741ED5245F0031732A /* 6.jpg */; };
+		5AB66DE31ED2EB6100CFFF79 /* LVMProductPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB66DE21ED2EB6100CFFF79 /* LVMProductPageControl.m */; };
+		5AF9347C1E67EF8F001934AE /* AlwaysRollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF9347B1E67EF8F001934AE /* AlwaysRollView.m */; };
+		5AF9348D1E680402001934AE /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF934881E680402001934AE /* 1.jpg */; };
+		5AF9348E1E680402001934AE /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF934891E680402001934AE /* 2.jpg */; };
+		5AF9348F1E680402001934AE /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9348A1E680402001934AE /* 3.jpg */; };
+		5AF934911E680402001934AE /* 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF9348C1E680402001934AE /* 5.jpg */; };
+		5AF934931E680445001934AE /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF934921E680445001934AE /* 4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,16 @@
 		5A2CA9731E66A79B00804C21 /* AlwaysRollUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlwaysRollUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2CA9771E66A79B00804C21 /* AlwaysRollUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlwaysRollUITests.m; sourceTree = "<group>"; };
 		5A2CA9791E66A79B00804C21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A310B741ED5245F0031732A /* 6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 6.jpg; sourceTree = "<group>"; };
+		5AB66DE11ED2EB6100CFFF79 /* LVMProductPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LVMProductPageControl.h; sourceTree = "<group>"; };
+		5AB66DE21ED2EB6100CFFF79 /* LVMProductPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LVMProductPageControl.m; sourceTree = "<group>"; };
+		5AF9347A1E67EF8F001934AE /* AlwaysRollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlwaysRollView.h; sourceTree = "<group>"; };
+		5AF9347B1E67EF8F001934AE /* AlwaysRollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlwaysRollView.m; sourceTree = "<group>"; };
+		5AF934881E680402001934AE /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		5AF934891E680402001934AE /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		5AF9348A1E680402001934AE /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		5AF9348C1E680402001934AE /* 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 5.jpg; sourceTree = "<group>"; };
+		5AF934921E680445001934AE /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +119,15 @@
 		5A2CA9511E66A79B00804C21 /* AlwaysRoll */ = {
 			isa = PBXGroup;
 			children = (
+				5AF9347D1E6801AE001934AE /* image */,
 				5A2CA9551E66A79B00804C21 /* AppDelegate.h */,
 				5A2CA9561E66A79B00804C21 /* AppDelegate.m */,
 				5A2CA9581E66A79B00804C21 /* ViewController.h */,
 				5A2CA9591E66A79B00804C21 /* ViewController.m */,
+				5AF9347A1E67EF8F001934AE /* AlwaysRollView.h */,
+				5AF9347B1E67EF8F001934AE /* AlwaysRollView.m */,
+				5AB66DE11ED2EB6100CFFF79 /* LVMProductPageControl.h */,
+				5AB66DE21ED2EB6100CFFF79 /* LVMProductPageControl.m */,
 				5A2CA95B1E66A79B00804C21 /* Main.storyboard */,
 				5A2CA95E1E66A79B00804C21 /* Assets.xcassets */,
 				5A2CA9601E66A79B00804C21 /* LaunchScreen.storyboard */,
@@ -138,6 +161,19 @@
 				5A2CA9791E66A79B00804C21 /* Info.plist */,
 			);
 			path = AlwaysRollUITests;
+			sourceTree = "<group>";
+		};
+		5AF9347D1E6801AE001934AE /* image */ = {
+			isa = PBXGroup;
+			children = (
+				5AF934881E680402001934AE /* 1.jpg */,
+				5AF934891E680402001934AE /* 2.jpg */,
+				5AF9348A1E680402001934AE /* 3.jpg */,
+				5AF934921E680445001934AE /* 4.jpg */,
+				5AF9348C1E680402001934AE /* 5.jpg */,
+				5A310B741ED5245F0031732A /* 6.jpg */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,7 +285,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A310B751ED5245F0031732A /* 6.jpg in Resources */,
+				5AF934931E680445001934AE /* 4.jpg in Resources */,
 				5A2CA9621E66A79B00804C21 /* LaunchScreen.storyboard in Resources */,
+				5AF934911E680402001934AE /* 5.jpg in Resources */,
+				5AF9348D1E680402001934AE /* 1.jpg in Resources */,
+				5AF9348E1E680402001934AE /* 2.jpg in Resources */,
+				5AF9348F1E680402001934AE /* 3.jpg in Resources */,
 				5A2CA95F1E66A79B00804C21 /* Assets.xcassets in Resources */,
 				5A2CA95D1E66A79B00804C21 /* Main.storyboard in Resources */,
 			);
@@ -277,6 +319,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A2CA95A1E66A79B00804C21 /* ViewController.m in Sources */,
+				5AF9347C1E67EF8F001934AE /* AlwaysRollView.m in Sources */,
+				5AB66DE31ED2EB6100CFFF79 /* LVMProductPageControl.m in Sources */,
 				5A2CA9571E66A79B00804C21 /* AppDelegate.m in Sources */,
 				5A2CA9541E66A79B00804C21 /* main.m in Sources */,
 			);
@@ -516,6 +560,7 @@
 				5A2CA97E1E66A79B00804C21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A2CA97F1E66A79B00804C21 /* Build configuration list for PBXNativeTarget "AlwaysRollTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +569,7 @@
 				5A2CA9811E66A79B00804C21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5A2CA9821E66A79B00804C21 /* Build configuration list for PBXNativeTarget "AlwaysRollUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +578,7 @@
 				5A2CA9841E66A79B00804C21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
